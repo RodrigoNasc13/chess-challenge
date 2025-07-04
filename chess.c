@@ -5,6 +5,7 @@ int main() {
     int casas_torre = 5;
     int casas_bispo = 5;
     int casas_rainha = 8;
+    int casas_cavalo = 3;
     
     printf("=== MOVIMENTACAO DAS PECAS DE XADREZ ===\n\n");
     
@@ -14,7 +15,7 @@ int main() {
         printf("Direita\n");
     }
     printf("\n");
-    
+
     // BISPO: Move 5 casas na diagonal (cima e direita) usando WHILE
     printf("Bispo movendo 5 casas na diagonal (cima e direita):\n");
     int contador_bispo = 1;
@@ -32,6 +33,18 @@ int main() {
         printf("Esquerda\n");
         contador_rainha++;
     } while (contador_rainha <= casas_rainha);
+    printf("\n");
+
+    // CAVALO: Move 2 casas na vertical (baixo) e 1 casa na horizontal (esquerda) usando FOR e WHILE
+
+    printf("Cavalo movendo 2 casas na vertical (baixo) e 1 casa na horizontal (esquerda):\n");
+    for(int i = 1; i <= casas_cavalo; i++) {
+        while (i <3) {
+            printf("Baixo\n");
+            i++;
+        }
+        printf("Esquerda\n");
+    }
     
     return 0;
 }
