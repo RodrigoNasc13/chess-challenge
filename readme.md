@@ -1,4 +1,4 @@
-# 🏰 Simulador de Movimentos de Xadrez - Nível Mestre
+# 🏰 Simulador de Movimentos de Xadrez
 
 Um programa em C que simula movimentos avançados das peças de xadrez utilizando **recursividade** e **loops complexos aninhados**.
 
